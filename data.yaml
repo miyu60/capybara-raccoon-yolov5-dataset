@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names: ['capybara', 'raccoon']
+
+roboflow:
+  workspace: new-workspace-swiwt
+  project: capybara-raccoon-detection-svw4m
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/new-workspace-swiwt/capybara-raccoon-detection-svw4m/1
